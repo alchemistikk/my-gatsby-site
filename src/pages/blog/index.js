@@ -5,7 +5,7 @@ import { postLink } from '../../components/layout.module.css'
 
 const BlogPage = ({ data }) => {
   return (
-    <Layout pageTitle="Blog Posts">
+    <Layout pageTitle="Blog">
       {
         data.allMdx.nodes.map(node => (
           <article key={node.id}>
