@@ -1,12 +1,10 @@
 .container {
   margin: auto;
-  max-width: 500px;
+  max-width: 600px;
   font-family: sans-serif;
+  font-size: 17px;
 }
 
-.heading {
-  color: #637081;
-}
 .nav-links {
   display: flex;
   list-style: none;
@@ -16,16 +14,24 @@
   padding-right: 2rem;
 }
 .nav-link-text {
-  color: #220C10;
+  color: #6D978C;
 }
 
 .site-title {
   font-size: 3rem;
-  color: #34dbeb;
+  color: #E67300;
   font-weight: 700;
   margin: 3rem 0;
 }
 
 .post-link {
-  color: #536B78;
+  color: #6D978C;
+}
+
+article {
+  line-height: 1.6;
+}
+
+p {
+  margin-bottom: 2em;
 }
