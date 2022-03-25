@@ -21,7 +21,7 @@
   font-size: 3rem;
   color: #E67300;
   font-weight: 700;
-  margin: 3rem 0;
+  margin: 3rem 0 3rem 13rem;
 }
 
 .post-link {
@@ -30,6 +30,27 @@
 
 article {
   line-height: 1.6;
+}
+
+h1 {
+  margin-bottom: 1.7em;
+  margin-top: 1em;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+h2 + p {
+  margin-top: 0;
+}
+
+p + h3 {
+  margin-top: 2.2em;
+}
+
+h2 + p + h3 {
+  margin-top: 0;
 }
 
 p {
