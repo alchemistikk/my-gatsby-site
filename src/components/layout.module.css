@@ -21,7 +21,8 @@
   font-size: 3rem;
   color: #E67300;
   font-weight: 700;
-  margin: 3rem 0 3rem 13rem;
+  margin: 3rem 1rem 3rem 0;
+  text-align: right;
 }
 
 .post-link {
