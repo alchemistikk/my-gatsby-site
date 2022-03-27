@@ -57,3 +57,10 @@ h2 + p + h3 {
 p {
   margin-bottom: 2em;
 }
+
+img {
+  border-radius: 30%;
+  position: relative;
+  float: left;
+  margin: 1.5em;
+}

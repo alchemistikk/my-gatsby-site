@@ -5,12 +5,12 @@ import { postLink } from '../../components/layout.module.css'
 
 const BlogPage = ({ data }) => {
   return (
-    <Layout pageTitle="Blog">
+    <Layout pageTitle="Posts">
       {
         data.allMdx.nodes.map(node => (
           <article key={node.id}>
             <h2>
-              <Link to={`/blog/${node.slug}`} className={postLink}>
+              <Link to={`/posts/${node.slug}`} className={postLink}>
                 {node.frontmatter.title}
               </Link>
             </h2>
