@@ -6,13 +6,7 @@ const AboutPage = () => {
   return (
       <Layout pageTitle="About">
         <img src={pic} alt="Mike smiles for the camera." width="200" height="200" />
-        <p>Hello. My name is Mike and this is my about page. This is all great stuff. Awesome.</p>
-        <p>Hello. My name is Mike and this is my about page. This is all great stuff. Awesome.</p>
-
-        <p>Hello. My name is Mike and this is my about page. This is all great stuff. Awesome.</p>
-
-        <p>Hello. My name is Mike and this is my about page. This is all great stuff. Awesome.</p>
-
+        <p>React Developer 🔗 | ASQ Certified Six Sigma Green Belt 🥋 | ASQ Certified Quality Process Analyst ⏱️ | Financial Services Consultant 🪙 | Poker Player ♠️</p>
       </Layout>
   )
 }
