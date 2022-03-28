@@ -1,10 +1,11 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import { projectTitle } from '../components/layout.module.css'
 
 const AboutPage = () => {
   return (
       <Layout pageTitle="Projects">
-        <p>SPI Match Filter</p>
+        <p className={projectTitle}>SPI Match Filter</p>
         <div>
           <a href="https://github.com/alchemistikk/spi-match-filter" target="_blank" rel="noopener noreferrer">github</a>
         </div>
@@ -12,7 +13,7 @@ const AboutPage = () => {
           <a href="https://github.com/alchemistikk/spi-match-filter" target="_blank" rel="noopener noreferrer">live</a>
         </div>
         <div>
-          <p>This Website</p>
+          <p className={projectTitle}>This Website</p>
           <div>
             <a href="https://github.com/alchemistikk/my-gatsby-site" target="_blank" rel="noopener noreferrer">github</a>
           </div>
