@@ -4,13 +4,23 @@ import Layout from '../components/layout'
 const AboutPage = () => {
   return (
       <Layout pageTitle="Projects">
-        <p>Hello. My name is Mike and this is my about page. This is all great stuff. Awesome.</p>
-        <p>Hello. My name is Mike and this is my about page. This is all great stuff. Awesome.</p>
-
-        <p>Hello. My name is Mike and this is my about page. This is all great stuff. Awesome.</p>
-
-        <p>Hello. My name is Mike and this is my about page. This is all great stuff. Awesome.</p>
-
+        <p>SPI Match Filter</p>
+        <div>
+          <a href="https://github.com/alchemistikk/spi-match-filter" target="_blank" rel="noopener noreferrer">github</a>
+        </div>
+        <div>
+          <a href="https://github.com/alchemistikk/spi-match-filter" target="_blank" rel="noopener noreferrer">live</a>
+        </div>
+        <div>
+          <p>This Website</p>
+          <div>
+            <a href="https://github.com/alchemistikk/my-gatsby-site" target="_blank" rel="noopener noreferrer">github</a>
+          </div>
+          <div>
+            <a href="https://mikemitchell.ca" target="_blank" rel="noopener noreferrer">live</a>
+          </div>
+        </div>
+        
       </Layout>
   )
 }
