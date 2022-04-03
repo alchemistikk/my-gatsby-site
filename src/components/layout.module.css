@@ -68,3 +68,12 @@ img {
 .project-title {
   margin-bottom: 0em;
 }
+
+.about-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-section h2 {
+  margin-bottom: 30px;
+}
