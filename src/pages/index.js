@@ -12,7 +12,7 @@ const IndexPage = ({ data }) => {
         data.allMdx.nodes.map(node => (
           <article key={node.id}>
             <h2>
-              <Link to={`/projects/${node.slug}`} className={postLink}>
+              <Link to={`/posts/${node.slug}`} className={postLink}>
                 {node.frontmatter.title}
               </Link>
             </h2>
