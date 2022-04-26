@@ -1,7 +1,11 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import pic from "../images/pic.png";
-import { aboutPage, aboutSection } from "../components/layout.module.css";
+import {
+  aboutPage,
+  aboutSection,
+  profilePicture,
+} from "../components/layout.module.css";
 
 const AboutPage = () => {
   return (
@@ -9,6 +13,7 @@ const AboutPage = () => {
       <div className={aboutPage}>
         <img
           src={pic}
+          className={profilePicture}
           alt="Mike smiles for the camera."
           width="200"
           height="200"

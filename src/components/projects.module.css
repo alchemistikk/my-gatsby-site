@@ -1,0 +1,17 @@
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-image {
+  max-width: 600px;
+  min-height: 300px;
+}
+
+.codeAndLive {
+  display: flex;
+}
+
+.codeAndLive div {
+  width: 50%;
+}

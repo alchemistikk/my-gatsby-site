@@ -59,15 +59,11 @@ p {
   margin-bottom: 2em;
 }
 
-img {
+.profile-picture {
   border-radius: 30%;
   position: relative;
   float: left;
   margin: 1.5em;
-}
-
-.project-title {
-  margin-bottom: 0em;
 }
 
 .about-page {
