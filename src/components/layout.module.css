@@ -68,7 +68,7 @@ p {
 
 .about-page {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 .about-section h2 {

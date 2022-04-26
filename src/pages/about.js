@@ -11,6 +11,19 @@ const AboutPage = () => {
   return (
     <Layout pageTitle="About">
       <div className={aboutPage}>
+        <div className={aboutSection}>
+          <h2>Front-End Web Developer — React, Gatsby, Ruby on Rails</h2>
+          <p>
+            Hi, I'm Mike. I develop web applications using React, Gatsby, and
+            Ruby on Rails. I have two Six Sigma certifications. I used to work
+            in retail and finance.
+          </p>
+          <p>
+            Check out my <a href="./posts">posts</a> page for some of my
+            thoughts on things or the <a href="./projects">projects</a> page for
+            some of my web development work.
+          </p>
+        </div>
         <img
           src={pic}
           className={profilePicture}
@@ -18,21 +31,6 @@ const AboutPage = () => {
           width="200"
           height="200"
         />
-        <div className={aboutSection}>
-          <h2>Current</h2>
-          <p>React Developer 🔗</p>
-          <p>ASQ Certified Six Sigma Green Belt 🥋</p>
-          <p>ASQ Certified Quality Process Analyst ⏱️</p>
-          <p>Financial Services Consultant 🪙</p>
-          <p>Poker Player ♠️</p>
-        </div>
-        <div className={aboutSection}>
-          <h2>Former</h2>
-          <p>Business student 💼</p>
-          <p>Personal Tutor 📋</p>
-          <p>Retail Manager 🛍️</p>
-          <p>Production Supervisor 🚗</p>
-        </div>
       </div>
     </Layout>
   );
