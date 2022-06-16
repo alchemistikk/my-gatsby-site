@@ -12,11 +12,14 @@ const AboutPage = () => {
     <Layout pageTitle="About">
       <div className={aboutPage}>
         <div className={aboutSection}>
-          <h2>Front-End Web Developer — React, Gatsby, Ruby on Rails</h2>
+          <h2>ASQ Certified Quality Process Analyst |
+	  ASQ Certified Six Sigma Green Belt |
+	  Hon. BBA</h2>
           <p>
-            Hi, I'm Mike. I develop web applications using React, Gatsby, and
-            Ruby on Rails. I have two Six Sigma certifications. I used to work
-            in retail and finance.
+	  Right now I split my time between developing applications,
+	  writing essays, and looking for full-time work. Until recently,
+	  I helped people better use their money. Years ago I worked in retail
+	  management and manufacturing.
           </p>
           <p>
             Check out my <a href="./posts">posts</a> page for some of my
